@@ -1,0 +1,290 @@
+*{
+    font-family: 'Gruppo', cursive;
+  }
+  body{
+    background-color: aqua;
+  }
+  .gameContainer{
+ background-image: url('https://t3.ftcdn.net/jpg/05/12/85/94/360_F_512859486_vuAxRHm8jg1DeiDtVbKnRuCjSAnNc4vy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 700px 600px;
+ height: 600px;
+  margin: auto;
+  border: 2px solid black;
+  margin: 20px;
+  position: absolute;
+  width: 600px;
+  overflow: hidden;
+ 
+}
+
+.knife{
+  background-color:brown;
+  height: 200px;
+  width: 20px;
+  position: absolute;
+  border-bottom-right-radius:10px ;
+  border-bottom-left-radius: 10px;
+  background-image: url('data:image/jpeg;base64,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');
+background-position: center;
+
+}
+.item0{
+  height: 300px;
+  animation-name:item0 ;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes item0 {
+  0%{
+      left: 600px;
+     
+  }
+100%{
+  left: -20px;
+}
+}
+.item1{
+ 
+  animation-name:item1 ;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  left: 600px;
+}
+@keyframes item1 {
+  0%{
+      left: 600px;
+     
+  }
+100%{
+  left: -20px;
+}
+}
+.item2{
+ height: 300px;
+ animation-name:item2 ;
+ animation-duration: 10s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: 5s;
+ left: 600px;
+}
+@keyframes item2 {
+ 0%{
+     left: 600px;
+    
+ }
+100%{
+ left: -20px;
+}
+}
+.item3{
+
+ animation-name:item3 ;
+ animation-duration: 10s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: 7.5s;
+ left: 600px;
+}
+@keyframes item3 {
+ 0%{
+     left: 600px;
+    
+ }
+100%{
+ left: -20px;
+}
+}
+.lower *{
+  bottom: 0;
+  border-bottom-right-radius:0px ;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius:10px ;
+  border-top-left-radius: 10px;
+}
+.item00{
+
+  animation-name:item00 ;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes item00 {
+  0%{
+      left: 600px;
+     
+  }
+100%{
+  left: -20px;
+}
+}
+.item11{
+  height: 300px;
+  animation-name:item11 ;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 2.5s;
+  left: 600px;
+}
+@keyframes item11 {
+  0%{
+      left: 600px;
+     
+  }
+100%{
+  left: -20px;
+}
+}
+.item22{
+ 
+ animation-name:item22 ;
+ animation-duration: 10s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: 5s;
+ left: 600px;
+}
+@keyframes item22 {
+ 0%{
+     left: 600px;
+    
+ }
+100%{
+ left: -20px;
+}
+}
+.item33{
+height: 300px;
+ animation-name:item33 ;
+ animation-duration: 10s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-delay: 7.5s;
+ left: 600px;
+}
+@keyframes item33 {
+ 0%{
+     left: 600px;
+    
+ }
+100%{
+ left: -20px;
+}
+}
+.kite{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  
+  background-image: url('bird.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+bottom: 250px;
+left: 50px;
+  
+}
+.kite1{
+  animation-name: bird;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes bird {
+  0%{
+
+      left: 50px;
+  }
+  100%{
+      left: 50px;
+      bottom: 0;
+  }
+}
+.score{
+position: absolute;
+right: 20px;
+color: yellow;
+z-index: 1;
+font-size: 30px;
+top: 5px;
+}
+h1{
+position: absolute;
+left: 180px;
+top: -20px;
+z-index: 1;
+}
+.options{
+height: 200px;
+width: 200px;
+background-color: rgba(255, 255, 255, 0.436);
+position: absolute;
+left: 200px;
+top: 200px;
+display: grid;
+justify-content: center;
+align-items: center;
+justify-items: center;
+align-content: center;
+border: 1px solid white;
+border-radius: 20px;
+display: none;
+animation: gameover;
+animation-duration: 0.7s;
+animation-timing-function: linear;
+animation-iteration-count: 1;
+}
+@keyframes gameover {
+0%{
+  transform: scale(0);
+}
+}
+.gameover{
+font-size: 30px;
+height: 50px;
+
+}
+.replay{
+font-size: 25px;
+height: 50px;
+width: 100px;
+background-color: rgba(128, 128, 128, 0.612);
+border-radius: 200px;
+display: grid;
+justify-content: center;
+align-content: center;
+margin-top: 20px;
+cursor: pointer;
+}
+.replay:hover{
+transition: all 0.5s;
+box-shadow: 0 0 5px 5px black;
+background-color: gray;
+}
+.yourscore{
+font-size: 25px;
+}
+.jumpbutton{
+    position: absolute;
+    top: 650px;
+    height: 50px;
+    width: 50px;
+        border-radius: 200px;
+        left: 300px;
+        font-weight: bold;
+    cursor: pointer;
+}
+.jumpbutton:hover{
+    transition: all 0.5s;
+    background-color: gray;
+    
+}
